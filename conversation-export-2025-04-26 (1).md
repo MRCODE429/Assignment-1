@@ -141,7 +141,4 @@ exit();
 ### d) Preventing SQL Injection Attacks
 - Prepared statements with parameter binding (`$stmt->bind_param()`) are used to prevent SQL injection attacks. This ensures that user input is treated as data, not executable code.
 
-### e) Code Submission
-- The code provided above can be saved in respective files (`login.html`, `login.php`, `database.php`, `welcome.php`, `logout.php`) and run on a local server with PHP support (like XAMPP or WAMP).
-- Ensure you have a database set up with a `users` table containing `username` and `password` fields, where passwords are stored as hashed values.
 
